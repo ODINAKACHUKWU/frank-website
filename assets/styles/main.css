@@ -77,3 +77,10 @@ body {
 .bg-gray {
   background-color: #c4c4c4;
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .main-section-content {
+    max-height: 19rem;
+  }
+}
