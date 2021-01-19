@@ -81,6 +81,6 @@ body {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .main-section-content {
-    max-height: 19rem;
+    max-height: 19rem !important;
   }
 }
