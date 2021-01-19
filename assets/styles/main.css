@@ -38,6 +38,11 @@ body {
   align-items: flex-end;
 }
 
+.hidden {
+  width: auto;
+  min-height: 25rem;
+}
+
 .heading {
   font-weight: bold;
 }
@@ -66,7 +71,7 @@ body {
 }
 
 .main-section-content {
-  max-height: 28rem;
+  max-height: 47rem;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -81,6 +86,10 @@ body {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .main-section-content {
-    max-height: 19rem !important;
+    max-height: 52rem;
+  }
+
+  .main-section {
+    padding-right: 3.5rem;
   }
 }
