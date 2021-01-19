@@ -31,6 +31,49 @@ body {
   transform: inherit;
 }
 
+.main-section {
+  height: calc(100vh - 150px);
+  margin: 0.5rem 1rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.heading {
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1.5rem;
+}
+
 .nav-link {
   padding: 0.5rem 0.3rem;
+}
+
+.view-works-button {
+  width: 164px;
+  height: 33px;
+  color: white;
+  background: #49a4e6;
+  border-radius: 5px;
+  border: 1px solid #49a4e6;
+}
+
+.view-works-button:hover {
+  background: #0790f1;
+  border-radius: 5px;
+  border: 1px solid #0790f1;
+}
+
+.main-section-content {
+  max-height: 28rem;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.bg-gray {
+  background-color: #c4c4c4;
 }
