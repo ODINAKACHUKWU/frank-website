@@ -42,9 +42,24 @@ body {
   align-items: flex-end;
 }
 
+.profile-main-section {
+  height: calc(100vh - 120px);
+}
+
+.profile-section {
+  width: 100%;
+  height: 47rem;
+}
+
 .hidden {
   width: auto;
   min-height: 25rem;
+}
+
+.print-icon {
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
 }
 
 .heading {
