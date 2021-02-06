@@ -132,6 +132,14 @@ body {
 
 /* Small devices (portrait, 768px and down */
 @media only screen and (max-width: 768px) {
+  .main-section-content {
+    max-height: 31rem;
+  }
+
+  .hidden {
+    min-height: 4rem;
+  }
+
   .profile-main-section {
     margin-top: 1.3rem;
   }
@@ -178,7 +186,7 @@ body {
     font-size: 0.8rem;
   }
 
-  .heading {
+  .resume-heading {
     font-size: 0.9rem;
   }
 
